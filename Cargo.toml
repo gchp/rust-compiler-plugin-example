@@ -1,0 +1,9 @@
+[package]
+name = "my_plugin"
+version = "0.0.1"
+authors = ["Greg Chapple <gregchapple1@gmail.com>"]
+
+[lib]
+name = "my_plugin"
+path = "src/lib.rs"
+plugin = true
