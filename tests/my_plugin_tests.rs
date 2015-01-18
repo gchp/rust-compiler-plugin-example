@@ -12,4 +12,6 @@ generate_struct!(
 );
 
 #[test] fn struct_is_generated() {
+    let post = Post { id: 1i32, title: "Hello world" };
+    assert_eq!(post.title, "Hello world");
 }
