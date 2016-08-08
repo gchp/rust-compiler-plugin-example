@@ -1,6 +1,6 @@
 #![feature(plugin)]
 
-#[plugin] extern crate my_plugin;
+#![plugin(my_plugin)]
 
 generate_struct!(
     name => Post,
